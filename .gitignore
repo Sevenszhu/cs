@@ -1,0 +1,7 @@
+# 忽略苹果系统生成的文件
+.DS_Store          # 文件夹属性文件（最常见）
+.DS_Store?         # 可能的变种
+._*                # 苹果资源分支文件（用于存储文件元数据）
+.Spotlight-V100    # Spotlight 索引目录
+.Trashes           # 废纸篓目录
+.fseventsd         # 文件系统事件日志目录
