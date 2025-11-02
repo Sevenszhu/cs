@@ -1,0 +1,62 @@
+% let the ctexarrt's scheme setting is plain, 
+% in order to prevent the sinicization of the title
+\documentclass[twoside, a4paper, 12pt, scheme = plain]{ctexart}
+
+% preamble
+% package
+% graphicx
+\usepackage{graphicx}
+% for test
+\usepackage{blindtext}
+% margin
+\usepackage[inner = 1.5cm, outer = 1.5cm, top = 2cm, bottom = 2cm]{geometry}
+% header and footer
+\usepackage{fancyhdr}
+\fancypagestyle{myheader}
+{
+  \fancyhf{}
+  \fancyhead[LO]{\includegraphics[height=1.5cm]{MUST.png}}
+  \fancyhead[RE]{\includegraphics[height=1.5cm]{MUST.png}}
+  \fancyhead[LE]{朱霁恒\_1240035289}
+  \fancyhead[RO]{朱霁恒\_1240035289}
+  \setlength{\headheight}{30pt}
+}
+% apply globally
+\pagestyle{myheader}
+
+% title
+\title{\vspace{-0.7em}\Huge XXX\vspace{-0.5em}}
+\author{\small 朱霁恒\ \ \ 1240035289}
+\date{\vspace{-0.5em} \small FIE, Macau University of Science and Technology}
+
+% document
+\begin{document}
+
+% generate the title
+\maketitle
+% slightly change the distance
+\vspace{0.7em}
+
+% Originally, there is no header in the first page, we 
+% have to add
+\thispagestyle{myheader}
+
+% abstract
+\begin{abstract}
+\vspace{-0.5em}
+\small
+\blindtext
+\end{abstract}
+
+% change the distance
+\vspace{-0.5em}
+
+% keyword
+\noindent \textsc{Keywords:} XXX, XXX, XXX
+
+%article part
+\section{My own module}
+\blindtext
+
+\end{document}
+
