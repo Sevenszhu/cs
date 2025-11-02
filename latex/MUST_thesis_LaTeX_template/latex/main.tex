@@ -1,0 +1,507 @@
+\documentclass[12pt]{article}
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{CJK}
+\usepackage{indentfirst}
+\usepackage{float}
+\usepackage{amsmath}
+\usepackage{fancyhdr}
+\usepackage{tikz}
+\usetikzlibrary{positioning, shapes.geometric}
+\usepackage{courier}
+\usepackage{CJKutf8}
+\usepackage[center]{titlesec}
+\titleformat{\section}{\centering\LARGE\bfseries}{Chapter \thesection.}{1em}{}
+
+\titleformat{\subsection}{\Large\bfseries\raggedright}{\thesubsection}{1em}{}
+
+\titleformat{\subsubsection}{\Large\raggedright}{\thesubsubsection}{1em}{}
+
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+
+
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext, newtxmath}
+
+\makeatletter
+\makeatother
+
+\counterwithin{figure}{section}
+
+
+
+
+
+
+
+
+
+
+
+
+
+\geometry{left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm}
+\newgeometry{top=5.0cm}
+\begin{document}
+\begin{CJK*}{UTF8}{bsmi}
+
+\thispagestyle{empty}
+\begin{figure}[ht]
+
+\centering
+\includegraphics[scale=0.6]{must.jpg}
+
+\end{figure}
+\begin{center}
+\LARGE
+\textbf {MACAU UNIVERSITY OF SCIENCE AND TECHNOLOGY}
+\end{center}
+\par
+
+
+\begin{center}
+\linespread{2}
+
+\normalsize \textbf {Faculty of Innovation Engineering}
+\par
+
+\normalsize \textbf {School of Computer Science and Engineering}
+\par
+
+\normalsize \textbf {Thesis for Degree of Bachelor of Science}
+\par
+
+
+\normalsize Title: XXXXXX
+\par
+
+
+
+
+
+\normalsize Student Name: XX
+\par
+\normalsize Student No.: XXXXXXXXXXXXXXXX
+\par
+\normalsize Supervisor: Prof. XXX
+\par
+\normalsize XXX, XXXX
+\par
+
+\end{center}
+\setcounter{page}{1}
+
+
+
+
+\newpage
+
+\thispagestyle{empty}
+\begin{CJK*}{UTF8}{bsmi}
+\begin{figure}
+\centering
+\includegraphics[scale=0.6]{must.jpg}
+
+\end{figure}
+
+
+\begin{center}
+\Huge
+\textbf {澳門科技大學}
+\end{center}
+\par
+
+
+\begin{center}
+\linespread{2}
+
+\normalsize \textbf {創新工程學院}
+\par
+
+\normalsize \textbf {計算機科學與工程學院}
+\par
+
+\normalsize \textbf {理學學士學位畢業論文}
+\par
+
+
+\normalsize 論文題目: XXXXXX
+\par
+
+
+
+
+
+\normalsize 姓名：XX
+\par
+\normalsize 學號：XXXXXXXXXXXXXXXXX
+\par
+\normalsize 指導老師：XXX\enspace教授
+\par
+\normalsize XXXX年X月
+
+
+
+
+\par
+\end{center}
+\end{CJK*}
+
+
+\newpage
+
+
+\pagenumbering{Roman}
+
+
+\newgeometry{left=2.5cm,right=2.5cm,top=4cm,bottom=2.5cm}
+\linespread{1.5}
+\large
+
+
+\begin{center}
+\Large
+\section* {Abstract}
+
+\phantomsection\addcontentsline{toc}{section}{Abstract}\tolerance=500
+\end{center}
+
+XXXXXX
+
+
+
+\par
+\textbf{Keywords:} XXX; XXX; XXX; XXX
+
+
+
+\newpage
+
+\begin{center}
+\Large
+\section* {摘要}
+\phantomsection\addcontentsline{toc}{section}{摘要}\tolerance=500
+\end{center}
+
+XXXXXX
+\par
+
+\textbf{關鍵詞：} XXX; XXX; XXX; XXX
+
+
+
+
+% \newpage
+
+% \begin{center}
+% \Large
+% \textbf {List of Figures}
+% \end{center}
+
+
+% \newpage
+
+% \begin{center}
+% \Large
+% \textbf {List of Tables}
+% \end{center}
+\section*{List of Contents}
+\renewcommand*\contentsname{}
+\tableofcontents
+\phantomsection\addcontentsline{toc}{section}{List of Contents}\tolerance=500
+\newpage
+
+
+
+\section*{List of Figures}
+\renewcommand*\listfigurename{}
+\listoffigures
+\phantomsection\addcontentsline{toc}{section}{List of Figures}\tolerance=500
+
+
+\newpage
+
+
+
+\newgeometry{left=2.5cm,right=2.5cm,top=4cm,bottom=2.5cm}
+\linespread{1.5}
+\large
+
+
+\newpage
+
+
+
+
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[R]{\leftmark}
+
+%\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{3.0pt} 
+
+\fancyfoot[C]{\thepage}
+\pagenumbering{arabic}
+
+
+\section{Introduction}
+
+
+\subsection{XXX}
+\subsubsection{XXX}
+The XXXXXX
+
+
+\par
+\begin{figure}[H]
+
+\centering
+\includegraphics[scale=0.4]{XXX.jpg}
+\caption{XXXXXX}
+\end{figure}
+\par
+
+
+
+
+\par
+XXXXXX
+
+
+
+\subsubsection{XXX}
+XXXXXX
+
+
+\par
+
+\subsubsection{XXX}
+XXXXXX
+
+
+
+
+\par
+
+
+
+
+
+
+
+
+\subsection{Thesis Organization}
+
+XXXXXX
+
+
+
+
+\newpage
+\section{XXXXXX}
+
+\subsection{XXX}
+XXXXXX
+
+
+\subsection{XXX}
+XXXXXX
+
+
+
+
+\subsection{XXX}
+XXXXXX
+
+
+
+\subsection{XXX}
+XXXXXX
+
+
+
+
+
+\newpage
+\section{XXXXXX}
+\subsection{XXX}
+
+\subsubsection{XXX}
+XXXXXX
+
+
+\par
+
+\subsubsection{XXX}
+XXXXXX
+
+
+\par
+\subsubsection{XXX}
+XXXXXX
+
+
+\par
+
+\subsubsection{XXX}
+XXXXXX
+
+
+
+\subsubsection{XXX}
+XXXXXX
+
+
+
+
+\newpage
+\section{XXXXXX}
+\subsection{XXX}
+
+XXXXXX
+
+
+\subsection{XXX}
+XXXXXX
+
+
+\subsection{XXX}
+XXXXXX
+
+
+
+\newpage
+
+\section{Conclusion}
+\subsection{XXX}
+XXXXXX
+
+
+
+\subsection{XXX}
+XXXXXX
+
+
+
+\newpage
+
+
+
+
+
+% \pagestyle{fancy}
+% \fancyhf{}
+% \fancyhead[R]{\leftmark}
+% \renewcommand{\headrulewidth}{3.0pt} 
+% \fancyfoot[C]{\thepage}
+
+
+
+
+
+\pagestyle{fancy}
+
+\rhead{REFERENCES \& BIBLIOGRAPHY}
+
+
+
+\section*{References \& Bibliography}
+\phantomsection\addcontentsline{toc}{section}{References \& Bibliography}\tolerance=500
+
+
+
+
+[1] XXXXXX
+\par
+[2] XXXXXX
+\par
+[3] XXXXXX
+\par
+[4] XXXXXX
+\par
+[5] XXXXXX
+\par
+[6] XXXXXX
+\par
+[7] XXXXXX
+\par
+[8] XXXXXX
+\par
+[9] XXXXXX
+\par
+[10] XXXXXX
+\par
+
+
+
+
+
+\newpage
+\rhead{APPENDIX}
+\section*{Appendix}
+\phantomsection\addcontentsline{toc}{section}{Appendix}\tolerance=500
+\par
+[1] XXXXXX
+\par
+[2] XXXXXX
+\par
+[3] XXXXXX
+\par
+
+
+
+\newpage
+\rhead{RESUME}
+\section*{Resume}
+\phantomsection\addcontentsline{toc}{section}{Resume}\tolerance=500
+
+\textbf{Name}: XX
+\par
+\textbf{Gender}: XX
+\par
+\textbf{Email}: XXXXXX
+\par
+\textbf{Education}: XXXXXX
+
+
+
+\par
+\textbf{Awards}:XXXXXX
+
+
+
+
+
+\textbf{Work experience}:XXXXXX
+
+
+
+
+
+
+\newpage
+
+% \newgeometry{left=2.5cm,right=2.5cm,top=2cm,bottom=2.5cm}
+% \linespread{1.5}
+% \large
+
+
+% \begin{center}
+% \Large
+\rhead{ACKNOWLEDGMENT}
+\section*{Acknowledgment}
+\phantomsection\addcontentsline{toc}{section}{Acknowledgment}\tolerance=500
+%\end{center}
+
+XXXXXX
+
+
+
+
+
+
+\newpage
+\end{CJK*}
+\end{document}
