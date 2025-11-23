@@ -12,8 +12,11 @@
                 BSD License.  See LICENSE.txt for details.
 
 *******************************************************************************/
-
+// #ifndef is used to judge whether the macro is defined, after declaring it, we must add #endif
+// Avoid redefinition errors in case of duplicate header inclusion.
+// judgment
 #ifndef TETRIS_H
+// implementation
 #define TETRIS_H
 
 #include <stdio.h> // for FILE
@@ -40,6 +43,7 @@
   How many cells in a tetromino?
  */
 #define TETRIS 4
+
 /*
   How many tetrominos?
  */
